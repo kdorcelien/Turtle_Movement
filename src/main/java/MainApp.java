@@ -1,3 +1,5 @@
+import com.pluralsight.Circle;
+import com.pluralsight.Shape;
 import com.pluralsight.Turtle;
 import com.pluralsight.World;
 
