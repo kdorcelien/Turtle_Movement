@@ -1,4 +1,5 @@
 import com.pluralsight.Circle;
+import com.pluralsight.Menu;
 import com.pluralsight.Shape;
 import com.pluralsight.Turtle;
 import com.pluralsight.World;
@@ -38,6 +39,9 @@ public class MainApp
 
         turtle.penDown();
         turtle.forward(hypotenuse);
+
+        Menu menu = new Menu();
+        menu.display();
 
 
     }

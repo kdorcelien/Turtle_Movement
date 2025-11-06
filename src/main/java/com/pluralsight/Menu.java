@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Menu {
-    private World world;
+    private World world = new World(300,300);
     public final List<Shape> shapes = new ArrayList<>();
 
     public static final Scanner scan = new Scanner(System.in);
@@ -16,6 +16,7 @@ public class Menu {
         System.out.println("1: Add Shape");
         System.out.println("2: Save Painting");
         System.out.println("3: Exit");
+        System.out.print("Enter your choice: ");
     }
 
     public void display() {
