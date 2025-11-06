@@ -3,7 +3,7 @@ import java.awt.*;
 
 public abstract class Shape implements Paintable{
     protected Turtle turtle;
-    protected Point location ;
+    protected Point location;
     protected Color color;
     protected double borderWidth;
 
